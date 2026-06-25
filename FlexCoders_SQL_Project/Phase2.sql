@@ -59,3 +59,10 @@ INSERT INTO product_suppliers VALUES
 (402, 203),
 (403, 204),
 (401, 205);
+
+-- Add More Categories
+INSERT INTO categories VALUES
+(4, 'Accessories'),
+(5, 'Books'),
+(6, 'Sports'),
+(7, 'Beauty');
