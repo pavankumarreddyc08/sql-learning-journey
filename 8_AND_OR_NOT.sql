@@ -18,6 +18,16 @@ select *
 from orders
 where order_status='Delivered' or order_status='Shipped';
 
--- select *
--- from products
--- where price not 10000;
+select product_name, price
+from products
+where not price > 10000
+order by price desc;
+
+select supplier_name
+from suppliers
+where not city='chennai';
+
+select *
+from customers
+where not city='hyderabad';
+
